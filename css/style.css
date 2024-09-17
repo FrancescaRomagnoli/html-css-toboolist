@@ -81,16 +81,27 @@ h1 {
 
 /* #MAIN SECTION */
 
+.checklist-body {
+    padding: 10px;
+    color: #363636;
+    font-weight: bold;
+}
+
 .checklist {
     list-style-type: none;
-
+    line-height: 2rem;
 }
 
 .checkbox {
     color: green;
     border: 1px solid currentColor;
     border-radius: 50%;
-    
+
+}
+
+.task-section-title {
+    font-weight: 800;
+    color: #363636;
 }
 
 .task-category {
