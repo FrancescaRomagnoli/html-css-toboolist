@@ -1,3 +1,6 @@
+
+
+
 /* # RESET */
 
 * {
@@ -15,7 +18,7 @@ body {
 
 .container {
     margin: 0 auto;
-    padding: 15px 30px;
+    padding: 0 30px;
     width: 1000px;
     max-width: 100%;
     background-color: white;
@@ -53,7 +56,7 @@ body {
 
 .task-button {
     display: inline;
-    background-color: aqua; 
+    background-color: #45acee; 
     border-radius: 5px;
     padding: 5px 10px;
     vertical-align: middle;
@@ -124,9 +127,40 @@ body {
 
 
 .task-category {
-    background-color: #1997d1;
     color: white;
     border-radius: 17%;
     padding: 5px 10px;
     font-size: 0.6rem;
+}
+
+/* /* PALETTE
+lightblue #45acee
+purple #9b79da
+acqua #6abfa7
+orange #f09e38
+pink #d962a0
+green #b0c827
+*/
+.editorial {
+    background-color: #45acee;
+}
+
+.goals {
+    background-color: #9b79da;
+}
+
+.recruiting {
+    background-color: #6abfa7;
+}
+
+.mobile {
+    background-color: #f09e38;
+}
+
+.website {
+    background-color: #d962a0;
+}
+
+.sales {
+    background-color: #b0c827;
 }
