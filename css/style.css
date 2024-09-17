@@ -35,17 +35,16 @@ body {
     vertical-align: middle;
 }
 
-h1 {
+.logo-text {
     display: inline;
     height: 50px;
     vertical-align: middle;
     font-weight: 800;
 }
 
-/* #MAIN HEADER*/
+/* BUTTONS */
 
 .checklist-header {
-    /* margin-bottom: 3px; */
     margin: 0 auto;
     height: 50px;
     background-color: white;
@@ -79,12 +78,19 @@ h1 {
     font-weight: bold;
 }
 
-/* #MAIN SECTION */
+/* CHECKLIST */
 
 .checklist-body {
     padding: 10px;
     color: #363636;
     font-weight: bold;
+}
+
+
+.task-section-title {
+    font-weight: 800;
+    color: #363636;
+    padding: 13px 0;
 }
 
 .checklist {
@@ -103,11 +109,6 @@ h1 {
     vertical-align: middle;
 }
 
-.task-section-title {
-    font-weight: 800;
-    color: #363636;
-    padding: 13px 0;
-}
 
 .task-category {
     background-color: blueviolet;
