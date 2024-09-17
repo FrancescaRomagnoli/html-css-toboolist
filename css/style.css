@@ -8,6 +8,7 @@
 
 body {
     background-color: #585858;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* # UTILS */
@@ -37,4 +38,5 @@ h1 {
     display: inline;
     height: 50px;
     vertical-align: middle;
+    font-weight: 800;
 }
