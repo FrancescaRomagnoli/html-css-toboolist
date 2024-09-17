@@ -42,9 +42,9 @@ h1 {
     font-weight: 800;
 }
 
-/* #MAIN */
+/* #MAIN HEADER*/
 
-.list-header {
+.checklist-header {
     /* margin-bottom: 3px; */
     margin: 0 auto;
     height: 50px;
@@ -77,4 +77,26 @@ h1 {
     color: grey;
     font-size: 13px;
     font-weight: bold;
+}
+
+/* #MAIN SECTION */
+
+.checklist {
+    list-style-type: none;
+
+}
+
+.checkbox {
+    color: green;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    
+}
+
+.task-category {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 25%;
+    padding: 5px 10px;
+    font-size: 13px;
 }
