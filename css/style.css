@@ -98,9 +98,20 @@ body {
     line-height: 1.5rem;
 }
 
-.checkbox {
+.checkbox-yes {
     display: inline-block;
     color: green;
+    border-radius: 50%;
+    border: 1px solid currentColor;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.checkbox-no {
+    display: inline-block;
+    color: #800000;
     border-radius: 50%;
     border: 1px solid currentColor;
     width: 1.5rem;
